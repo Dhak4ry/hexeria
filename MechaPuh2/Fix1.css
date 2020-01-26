@@ -82,12 +82,26 @@ body {
     text-align: center;
   }
   
-  .text {
+  .text1 {
     padding: 10px;
-    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: 25px;
+    margin-left: 25px;
     color: white;
-    background-color: #111;
-    opacity: 0.8;
+    background-image: url('https://cdn3.vectorstock.com/i/1000x1000/02/37/white-wave-pattern-abstract-3d-background-vector-20610237.jpg');
+    
+    opacity: 1;
+  }
+  .text2 {
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    color: white;
+    background-color:black;
+    opacity: 0.9;
   }
   
   .aid {
