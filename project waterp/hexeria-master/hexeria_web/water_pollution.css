@@ -93,21 +93,46 @@ body {
   opacity: 0.8;
 }
 
-.aid {
+.oil {
   width: 350px;
 }
 
-.aidtwo {
-
-  width: 410px;
-}
-
-.sink {
+.water {
 
   width: 450px;
 }
 
-.sinktwo {
+.gas {
 
-  width: 600px;
+  width: 410px;
+  
+}
+
+.litter {
+  
+  width:650px;
+  height:600px;
+}
+
+.text2 {
+  
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    color: white;
+    background-color:black;
+    opacity: 0.9;
+}
+
+
+  .text1 {
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: 25px;
+    margin-left: 25px;
+    color:white;
+    background-image: url('https://cdn3.vectorstock.com/i/1000x1000/02/37/white-wave-pattern-abstract-3d-background-vector-20610237.jpg');
 }
