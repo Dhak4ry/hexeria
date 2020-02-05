@@ -1,15 +1,16 @@
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    padding:0;
-    margin:0;
-	background-image: url('https://images.squarespace-cdn.com/content/v1/58022ca06b8f5bc8f4786ce2/1490105209391-JGQKOXH3OYILPL9U9DKV/ke17ZwdGBToddI8pDm48kAt72yGFwHZjoxtmj75n0VMUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dv608ZF5SQ066zrusfA3lZsto2GUPSkfCkjYhXQIm1t1CjLISwBs8eEdxAxTptZAUg/Oceans+back+from+the+Brink_FINAL+WEB.png?format=1500w');
-	background-size: cover;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding:0;
+  margin:0;
+  background-image: url('https://i.makeagif.com/media/9-21-2016/QLraHW.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
 .navbar {
   overflow: hidden;
   background-color: black;
- 
 }
 
 .navbar a {
@@ -18,14 +19,13 @@ body {
   color: white;
   text-align: center;
   text-decoration: none;
-
 }
 
 .dropdown {
   float: left;
   overflow: hidden;
-  
 }
+
 .homepage{
   font-size: 16px;  
   border: none;
@@ -83,42 +83,78 @@ body {
   }
   
   .text1 {
-    padding: 10px;
+    padding:10px;
     margin-top: 50px;
     margin-bottom: 0px;
     margin-right: 25px;
     margin-left: 25px;
     color: white;
     background-image: url('https://cdn3.vectorstock.com/i/1000x1000/02/37/white-wave-pattern-abstract-3d-background-vector-20610237.jpg');
-    
     opacity: 1;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
   }
+
   .text2 {
-    padding: 10px;
+    padding:10px;
     margin-top: 0px;
     margin-bottom: 25px;
     margin-right: 25px;
     margin-left: 25px;
     color: white;
     background-color:black;
-    opacity: 0.9;
+    opacity:0.8;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
   }
   
+  .par{
+    background-color:black;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px ;
+    padding-bottom: 5px;
+    font-size: 16px;
+  }
+
+  .pictures{
+    background-color:black;
+    color: white;
+  }
+
   .aid {
-    width: 350px;
+    margin-left: 100px;
+    height : 300px;
+    width: 450px;
+    opacity: 1;
+    border-radius: 10px;
   }
   
   .aidtwo {
-  
-    width: 410px;
+    float: right;
+    margin-right: 150px;
+    height : 300px;
+    width: 450px;
+    opacity: 1;
+    border-radius: 10px;
   }
   
   .sink {
-  
+    margin-left: 100px;
+    height : 300px;
     width: 450px;
+    opacity: 1;
+    border-radius: 10px;
   }
   
   .sinktwo {
-  
-    width: 600px;
+    float: right;
+    margin-right: 150px;
+    height : 300px;
+    width: 450px;
+    opacity: 1;
+    border-radius: 10px;
   }
