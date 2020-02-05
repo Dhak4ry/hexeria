@@ -1,11 +1,11 @@
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    background-size: cover;
-    padding:0;
-    margin:0;
-	background-image: url('https://i.makeagif.com/media/9-21-2016/QLraHW.gif');
-	background-size: cover;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding:0;
+  margin:0;
+	background-image: url('https://avatars.mds.yandex.net/get-pdb/1623506/cf37335e-4097-456a-ab54-dd4777b51d50/orig');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .navbar {
@@ -93,7 +93,8 @@ body {
   margin-left: 25px;
   color: white;
   background-image: url('https://cdn3.vectorstock.com/i/1000x1000/02/37/white-wave-pattern-abstract-3d-background-vector-20610237.jpg');
-  
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
   opacity: 1;
 }
 .text2 {
@@ -104,33 +105,36 @@ body {
   margin-left: 25px;
   color: white;
   background-color:black;
-  
-  opacity: 0.9;
+  opacity:0.8;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
-.aid {
-  width: 350px;
+.par{
+  background-color:black;
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding:25px;
+  font-size: 16px;
 }
 
-.aidtwo {
-
-  width: 410px;
+.pictures{
+  background-color:black;
+  color: white; 
 }
 
-.oil {
-  height : 300px;
+.plane {
+  border-radius: 10px;
   width: 450px;
+  height : 300px;
+  margin-left: 150px;
 }
 
-.water {
-  height : 300px;
+.plane2 {
+  border-radius: 10px;
   width: 450px;
-}
-.litter {
   height : 300px;
-  width: 450px;
-}
-.gas {
-  height : 300px;
-  width: 450px;
+  float:right;
+  margin-right: 150px;
 }
